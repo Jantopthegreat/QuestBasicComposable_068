@@ -67,7 +67,8 @@ fun BasicCompose(
         style = TextStyle(fontSize = 50.sp, fontWeight = FontWeight.Bold),
         modifier = Modifier.padding(top = 20.dp))
     Image(painter = painterResource(id = R.drawable.fotogantenk),
-        )
+        contentDescription = null,
+        modifier = Modifier.padding(top = 20.dp).size(400.dp))
 
 
 
