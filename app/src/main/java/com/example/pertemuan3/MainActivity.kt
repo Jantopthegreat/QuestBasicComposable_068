@@ -56,10 +56,10 @@ fun BasicCompose(
     Text(text = "Ini adalah halaman Login ")
     Image(painter = painterResource(id = R.drawable.logoumy),
     contentDescription = null,
-    modifier = modifier.padding(top = 18.dp).size(150.dp)
+    modifier = modifier.padding(top = 18.dp).size(200.dp)
     )
     Text(text="Nama",
-        modifier = modifier.padding(top = 20.dp))
+        modifier = modifier.padding(top = 10.dp))
     Text(text = "Fauzan Althaf Rianto",
         color = Color.Red,
         style = TextStyle(fontSize = 20.sp, fontWeight = FontWeight.Bold))
