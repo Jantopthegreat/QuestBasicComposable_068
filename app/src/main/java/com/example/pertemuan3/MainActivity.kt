@@ -63,6 +63,7 @@ fun BasicCompose(
     Text(text = "Fauzan Althaf Rianto",
         color = Color.Red,
         style = TextStyle(fontSize = 20.sp, fontWeight = FontWeight.Bold))
+    Text(text = "20220140068",)
 
 
 
